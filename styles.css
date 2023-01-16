@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background: #14495e;
+  margin-bottom: 300px;
   cursor: url(fly.png), auto;
   background-image: url(Poop-PNG-HD.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  top: 200px;
 }
 
 .eyes {
@@ -35,4 +36,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+footer {
+  position: absolute;    
+  bottom:0px;
+  right:0%;
+  left: 0%;
+top: 500;
 }
